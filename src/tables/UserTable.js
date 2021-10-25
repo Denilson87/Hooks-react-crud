@@ -25,7 +25,7 @@ const UserTable = props => (
                     </tr>
                 ))
             ) : (
-                <tr>
+                <tr> 
                     <td colSpan={3}>No users please fill the from</td>
                 </tr>
             )} 
