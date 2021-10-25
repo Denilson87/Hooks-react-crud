@@ -5,9 +5,9 @@ const UserTable = props => (
     <table>
         <thead>
             <tr>
-                <th>Name</th>
-                <th>UserName</th>
-                <th>Actions</th>
+                <th>Name:</th>
+                <th>UserName:</th>
+                <th>Actions:</th>
             </tr>
         </thead>
         <tbody>
