@@ -18,7 +18,7 @@ const EditUserForm = props => {
             <label>Name</label>
             <input type="text" name="name" value={user.name} placeHolder="Type your Name" onChange={handleInputChange} />
             <label>Username</label>
-            <input type="text" name="username" value={user.username} onChange={handleInputChange} />
+            <input type="text" name="username" placeHolder="Type your username" value={user.username} onChange={handleInputChange} />
             <button>Update user</button>
             <button onClick={() => props.setEditing(false)} 
                     className="button muted-button">
