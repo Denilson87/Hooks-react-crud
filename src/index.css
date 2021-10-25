@@ -186,8 +186,8 @@
   button,
   [type="button"],
   [type="reset"],
-  [type="submit"] {
-    -webkit-appearance: button; }
+  [type="submit"] 
+{-webkit-appearance: button; }
   
   /**
    * Remove the inner border and padding in Firefox.
@@ -364,7 +364,7 @@
     margin: 1.5rem 0;
     font-weight: 600;
     font-family: -apple-system, BlinkMacSystemFont, Helvetica Neue, Helvetica, Arial, sans-serif;
-    line-height: 1.2;
+    line-height: 1.3;
     color: #404040; }
     h1:not(:first-child),
     h2:not(:first-child),
